@@ -2,78 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Taskinator</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Taskinator</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  
-    <header>
-        <h1 class="page-title">To-do list</h1>
-        <form id="task-form">
-            <div class="form-group">
-                <input type="text" name="task-name" class="text-input" placeholder="Enter Task" />
-            </div>
-            <div class="form-group">
-                <select name="task-type" class="select-dropdown">
-                    <option value="" disabled selected>Pick a task type</option>
-                    <option value="Finance ">Create a budget</option>
-                    <option value="Finance ">Event planning </option>
-                    <option value="Finance ">Travel planning</option>
-                    <option value="Finance ">Pay bills</option>
-                    <option value="Meeting">Email follow-up</option>
-                    <option value="Meeting">Schedule a meeting</option>
-                    <option value="Meeting">Meeting preparation</option>
-                    <option value="Meeting">Attend a meeting</option>
-                    <option value="Meeting">Phone call follow-up</option>
-                    <option value="Meeting">Create a schedule</option>
-                    <option value="Andrej">Andrej's Activities</option>
-                    <option value="Car">Services </option>
-                    <option value="Car">Car Wash </option>
-                    <option value="Activities">Exercises</option>
-                    <option value="Activities">Exercise routine</option>
-                    <option value="Education">Website development</option>
-                    <option value="Activities">Services </option>
-                    <option value="Family"></option>
-                    <option value="Family"> </option>
-                    <option value="Health">Doctor's appointments</option>
-                    <option value="Health">Shopping </option>
-                    <option value="Health">Grocery  </option>
-                    <option value="Pleasure&travel">Grocery  </option>
-                </select>
-            </div>
-            <div class="form-group">
-                <button class="btn" id="save-task" type="submit">Add Task</button>
-            </div>
-        </form>
-    </header>
-    <main class="page-content" id="page-content">
-      
-        <section class="task-list-wrapper">
-            <h2 class="list-title">Tasks To Do</h2>
-            <ul class="task-list" id="tasks-to-do">
-            </ul>
-        </section>
-        <!-- Tasks In Progress -->
-        <section class="task-list-wrapper">
-            <h2 class="list-title">Tasks In Progress</h2>
-            <ul class="task-list" id="tasks-in-progress"></ul>
-        </section>
 
-        <!-- Tasks Completed -->
-        <section class="task-list-wrapper">
-            <h2 class="list-title">Tasks Completed</h2>
-            <ul class="task-list" id="tasks-completed"></ul>
-        </section>
-    </main>
+  <header>
+    <h1 class="page-title">To-do list</h1>
+    <form id="task-form">
+      <div class="form-group">
+        <input type="text" name="task-name" class="text-input" placeholder="Enter Task" />
+      </div>
+      <div class="form-group">
+        <select name="task-type" class="select-dropdown">
+          <option value="" disabled selected>Pick a task type</option>
+          <option value="Finance ">Create a budget</option>
+          <option value="Finance ">Event planning </option>
+          <option value="Finance ">Pay bills</option>
+          <option value="Work">Email follow-up</option>
+          <option value="Work">Schedule a meeting</option>
+          <option value="Work">Meeting preparation</option>
+          <option value="Work">Attend a meeting</option>
+          <option value="Work">Phone call follow-up</option>
+          <option value="Work">Create a schedule</option>
+          <option value="Andrej">Andrej's Activities</option>
+          <option value="Andrej">Andrej's Piano</option>
+          <option value="Andrej">Andrej's Exercises</option>
+          <option value="Andrej">Andrej's Reading</option>
+          <option value="Andrej">Andrej's Tennis</option>
+          <option value="Andrej">Andrej's Biking</option>
+          <option value="Car">Car Services </option>
+          <option value="Car">Car Wash </option>
+          <option value="Activities">Exercises</option>
+          <option value="Activities">Gym</option>
+          <option value="Activities">Biking</option>
+          <option value="Activities">Walking</option>
+          <option value="Activities">Hiking</option>
+          <option value="Education">Website Development</option>
+          <option value="Education">Reading Book</option>
+          <option value="Education">Educational Video</option>
+          <option value="Family">Ljubi zenicu</option>
+          <option value="Family">Shopping </option>
+          <option value="Family">Grocery </option>
+          <option value="Health">Doctor's appointments</option>
+          <option value="Pleasure&travel">Grocery </option>
+          <option value="Pleasure&travel ">Travel planning</option>
 
-    <footer>
-        &copy;2023 by Bojan Golic
-    </footer>
-    <script src="./assets/js/script.js"></script>
+        </select>
+      </div>
+      <div class="form-group">
+        <button class="btn" id="save-task" type="submit">Add Task</button>
+      </div>
+    </form>
+  </header>
+  <main class="page-content" id="page-content">
+    <section class="task-list-wrapper">
+      <h2 class="list-title">Tasks To Do</h2>
+      <ul class="task-list" id="tasks-to-do">
+      </ul>
+    </section>
+    <!-- Tasks In Progress -->
+    <section class="task-list-wrapper">
+      <h2 class="list-title">Tasks In Progress</h2>
+      <ul class="task-list" id="tasks-in-progress"></ul>
+    </section>
+
+    <!-- Tasks Completed -->
+    <section class="task-list-wrapper">
+      <h2 class="list-title">Tasks Completed</h2>
+      <ul class="task-list" id="tasks-completed"></ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy;2023 by Bojan Golic
+  </footer>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
