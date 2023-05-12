@@ -11,7 +11,7 @@
 }
 
 body {
-  background: #ededed;
+  /*background-image: url("../images/02.mp4");*/
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -98,10 +98,10 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: linear-gradient(to bottom right, #0ba9f2, #021f2e 50%, #04a2f1);
+  background: linear-gradient(to bottom right, rgb(255 200 230 / 30%), #98a1cd 50%, #116995);
   border-radius: 12px;
   border: 2px solid var(--grey);
-  box-shadow: 5px 5px 10px rgba(6, 148, 250, 0.4), 
+  box-shadow: 5px 5px 10px rgba(35, 6, 6, 0.4), 
             -5px -5px 10px rgba(6, 120, 251, 0.3);
 
 
