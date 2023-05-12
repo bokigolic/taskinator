@@ -12,6 +12,7 @@ Taskinator is a simple web application that allows you to manage your tasks. Wit
 - To Do, 
 - In Progress, or 
 - Completed. 
+
 As you work on a task, you can move it between these states by dragging and dropping it to the appropriate section.
 
 ## Getting Started
