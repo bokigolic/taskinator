@@ -4,8 +4,8 @@
 
 :root {
   --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
+  --secondary: linear-gradient(to bottom right, #005f6b, #8aa2a5 50%, #52c6e3); 
+  --tertiary: linear-gradient(to bottom right, #005f6b, #8aa2a5 50%, #52c6e3);
   --grey: #333;
   font-size: 62.5%;
 }
@@ -98,9 +98,13 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: rgb(196, 196, 196);
+  background: linear-gradient(to bottom right, #0ba9f2, #021f2e 50%, #04a2f1);
   border-radius: 12px;
   border: 2px solid var(--grey);
+  box-shadow: 5px 5px 10px rgba(6, 148, 250, 0.4), 
+            -5px -5px 10px rgba(6, 120, 251, 0.3);
+
+
 }
 
 .task-item {
