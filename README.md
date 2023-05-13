@@ -9,10 +9,7 @@ Task categories: You can categorize your tasks by selecting a task type from the
 - Edit tasks: You can edit a task by clicking on it and making changes to the task name or task type.
 - Delete tasks: You can delete a task by clicking on the delete icon next to the task.
 
-![facebook-clone](https://github.com/bokigolic/)
-
-
-
+![Taskinator](https://github.com/bokigolic/taskinator/blob/main/assets/images/Screenshot.png)
 
 ## Task statuses: Tasks can be in one of three states: 
 - To Do, 
