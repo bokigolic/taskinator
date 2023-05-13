@@ -1,11 +1,16 @@
 # Project name: Taskinator
 Taskinator is a simple web application that allows you to manage your tasks. With Taskinator, you can add, edit, and delete tasks. Taskinator is built using JavaScript and utilizes CRUD operations to manage tasks.
 
+- [LIVE](http://) 
+
 ## Features
 Task categories: You can categorize your tasks by selecting a task type from the dropdown list when adding or editing a task.
 - Add tasks: You can add tasks to the task list by providing a task name and selecting a task type.
 - Edit tasks: You can edit a task by clicking on it and making changes to the task name or task type.
 - Delete tasks: You can delete a task by clicking on the delete icon next to the task.
+
+![facebook-clone](https://github.com/bokigolic/)
+
 
 
 
